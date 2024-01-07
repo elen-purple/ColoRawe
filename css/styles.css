@@ -1,0 +1,31 @@
+:root {
+  --first-review: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  --second-review: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  --third-review: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  --accent: #8e32c6;
+  --header-bg: #012d63;
+  --footer-bg: #021635;
+  --light: #ffffff;
+  --reviews-caption: #d8d8d8;
+  --menu-color: #c7c7c7;
+  --footer-line: #9b9b9b;
+  --order-placeholder: #959595;
+}
