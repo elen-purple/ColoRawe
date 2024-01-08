@@ -238,3 +238,91 @@ body {
 
 .advans-img {
 }
+
+.reviews {
+  padding-top: 24px;
+  padding-bottom: 113px;
+  background-image: url(../imgs/reviews-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid var(--light);
+  border-bottom: 2px solid var(--light);
+}
+
+.reviews-title {
+  color: var(--light);
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 93px;
+  justify-content: center;
+}
+
+.reviews-item {
+  width: 255px;
+  padding: 49px 13.5px 29px;
+  border-radius: 15px;
+}
+
+.reviews-item:nth-child(1) {
+  background-image: var(--first-review);
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.reviews-item:nth-child(2) {
+  background-image: var(--second-review);
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.reviews-item:nth-child(3) {
+  background-image: var(--third-review);
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.reviews-subtitle {
+  color: var(--light);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.reviews-date {
+  color: var(--reviews-caption);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.reviews-wrap {
+  display: flex;
+  gap: 5px;
+  margin-top: 47px;
+}
+
+.reviews-img {
+  border-radius: 50%;
+}
+
+.reviews-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.reviews-header {
+  color: var(--light);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.reviews-year {
+  color: var(--reviews-caption);
+  font-size: 12px;
+  font-weight: 400;
+}
