@@ -47,7 +47,7 @@ body {
   width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: dashed red 3px; */
+  outline: dashed red 3px;
 }
 
 .header {
@@ -175,13 +175,14 @@ body {
   color: var(--light);
   font-size: 24px;
   font-weight: 400;
-  transition: background-color 0.4s, color 0.4s;
+  transition: background-color 0.4s, color 0.4s, transform 0.4s;
 }
 
 .hero-link:hover,
 .hero-link:focus {
   background-color: #5e1888;
   color: var(--menu-color);
+  transform: scale(1.05);
 }
 
 .advans {
@@ -325,4 +326,74 @@ body {
   color: var(--reviews-caption);
   font-size: 12px;
   font-weight: 400;
+}
+
+.order {
+  padding-top: 20px;
+  padding-bottom: 37px;
+  background-image: url(../imgs/order-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.order-title {
+  color: var(--light);
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+}
+
+.order-label {
+}
+
+.order-input {
+  width: 580px;
+  padding: 11px 24px;
+  border: none;
+  border-radius: 50px;
+  color: var(--footer-bg);
+  font-size: 28px;
+  font-weight: 400;
+  transition: transform 0.4s;
+}
+
+.order-input:hover,
+.order-input:focus {
+  transform: scale(1.2);
+}
+
+.order-input::placeholder {
+  color: var(--order-placeholder);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.order-btn {
+  display: block;
+  width: max-content;
+  padding: 20px 48.5px;
+  border-radius: 16px;
+  background-color: var(--accent);
+  color: var(--light);
+  font-size: 24px;
+  font-weight: 400;
+  transition: background-color 0.4s, color 0.4s, transform 0.4s;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #5e1888;
+  color: var(--menu-color);
+  transform: scale(1.05);
 }
