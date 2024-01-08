@@ -112,7 +112,7 @@ body {
 }
 
 .hero {
-  padding-top: 119px;
+  padding-top: 209px;
   padding-bottom: 183px;
   background-image: url(../imgs/hero-bg.webp);
   background-position: bottom center;
@@ -182,4 +182,59 @@ body {
 .hero-link:focus {
   background-color: #5e1888;
   color: var(--menu-color);
+}
+
+.advans {
+  background-image: url(../imgs/advans-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 105px 0;
+}
+
+.container {
+}
+
+.advans-title {
+}
+
+.advans-list {
+  display: flex;
+  border: var(--accent) solid 5px;
+  padding: 20px 45px;
+}
+
+.advans-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.advans-item:nth-child(1) {
+  padding-right: 50px;
+  border-right: 1px var(--light) solid;
+}
+
+.advans-item:nth-child(2) {
+  padding: 0 94px;
+  flex-direction: column-reverse;
+}
+
+.advans-item:nth-child(3) {
+  padding-left: 50px;
+  border-left: 1px var(--light) solid;
+}
+
+.advans-subtitle {
+  height: 102px;
+  width: 151px;
+  color: var(--light);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.advans-img {
 }
