@@ -47,7 +47,7 @@ body {
   width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: dashed red 3px;
+  /* outline: dashed red 3px; */
 }
 
 .header {
@@ -396,4 +396,78 @@ body {
   background-color: #5e1888;
   color: var(--menu-color);
   transform: scale(1.05);
+}
+
+.footer {
+  background-color: var(--footer-bg);
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+  border-bottom: var(--footer-line) 1px solid;
+  margin-bottom: 16px;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-question {
+  color: var(--light);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.footer-gmail {
+  color: var(--light);
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  transition: color 0.4s;
+}
+
+.footer-gmail:hover,
+.footer-gmail:focus {
+  color: var(--menu-color);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrap {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer-text {
+  color: var(--light);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-img {
+}
+
+.footer-info {
+  color: var(--light);
+  font-family: PT Serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: -3px;
 }
